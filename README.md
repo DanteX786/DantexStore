@@ -1,7 +1,7 @@
-🎮 DANTEXSTORE - E-commerce Full Stack
+    DANTEXSTORE - E-commerce Full Stack
 DANTEXSTORE es una plataforma de comercio electrónico enfocada en videojuegos, desarrollada con una arquitectura moderna que separa el Frontend (React) del Backend (Node.js). El proyecto incluye funcionalidades de carrito de compras, gestión de favoritos y un buscador dinámico basado en presupuesto conectado a una API REST.
 
-🛠️ Tecnologías Utilizadas
+    Tecnologías Utilizadas
 Frontend
 React.js (Vite)
 
@@ -20,7 +20,7 @@ CORS - Para la comunicación segura entre dominios.
 
 Vercel - Configuración lista para despliegue.
 
-### 📂 Estructura del Proyecto
+### Estructura del Proyecto
 El proyecto sigue una estructura modular para facilitar el mantenimiento:
 
 ```plaintext
@@ -41,7 +41,7 @@ DANTEXSTORE/
 │   └── vite.config.js       # Configuración de Vite
 └── README.md                # Documentación
 
-✨ Funcionalidades Principales
+    Funcionalidades Principales
 Tienda Dinámica: Visualización de productos con imágenes y precios formateados.
 
 Sistema de Favoritos: Persistencia en estado para marcar productos deseados.
@@ -52,13 +52,39 @@ Buscador por Presupuesto: Consulta en tiempo real a la API de Node.js para filtr
 
 Diseño Responsivo: Interfaz adaptada para diferentes tamaños de pantalla mediante Material UI.
 
-🚀 Instalación y Configuración
+## Capturas de la Interfaz Gráfica
+
+| Vista Principal (Landing) | Tienda (Catálogo) |
+| :---: | :---: |
+| ![Landing Page](./Captura_proyecto_1.png) | ![Tienda](./Captura_proyecto_2.jpg) |
+
+| Ofertas de Locura | Mis Favoritos |
+| :---: | :---: |
+| ![Ofertas](./Captura_proyecto_3.png) | ![Favoritos](./Captura_proyecto_4.png) |
+
+| Mi Carrito | Crear Cuenta (Registro) |
+| :---: | :---: |
+| ![Carrito](./Captura_proyecto_5.png) | ![Registro](./Captura_proyecto_6.png) |
+
+---
+
+## Datos del Autor
+
+* **Nombre:** Juan Camilo
+* **Institución:** SENA (Servicio Nacional de Aprendizaje)
+* **Programa:** ADSO (Análisis y Desarrollo de Software)
+* **Trimestre:** Tercer Trimestre
+* **Información de contacto**
+    Celular Empresarial: 3180855036
+    Correo: juancamilovalle25@gmail.com
+
+    Instalación y Configuración
 Sigue estos pasos para ejecutar el proyecto localmente:
 
 1. Clonar el repositorio
 Bash
 git clone <url-repositorio>
-cd DANTEXSTORE
+cd DantexStore
 2. Configurar el Backend
 Bash
 cd Backend
@@ -75,10 +101,8 @@ npm install --legacy-peer-deps
 npm run dev
 La aplicación estará disponible en http://localhost:5173 (o el puerto que asigne Vite).
 
-👤 Autor
-Juan Camilo - Estudiante de Sistemas - SENA (Medellín).
-
 Notas Técnicas
 Asegúrate de tener instalado Node.js (versión recomendada v18 o superior).
 
 El Frontend requiere el comando --legacy-peer-deps durante la instalación para evitar conflictos de versiones entre dependencias de Material UI.
+

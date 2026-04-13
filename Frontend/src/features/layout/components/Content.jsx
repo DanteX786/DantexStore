@@ -25,7 +25,7 @@ function Content() {
             <Box sx={{ display: 'flex', gap: 2 }}>
               <Button variant="contained" sx={{ bgcolor: '#3f51b5', color: 'white', borderRadius: '12px', px: 4, py: 1.5, textTransform: 'none', '&:hover': 
                 { bgcolor: '#303f9f' } }} onClick={() => navigate("/tienda")}>Explorar Catálogo</Button>
-              <Button variant="text" sx={{ color: '#3f51b5', fontWeight: 'bold', textTransform: 'none' }} onClick={() => navigate("/micuenta")}>Registrarse →</Button>
+              <Button variant="text" sx={{ color: '#3f51b5', fontWeight: 'bold', textTransform: 'none' }} onClick={() => navigate("/micuenta")}>Iniciar sesión →</Button>
             </Box>
           </Box>
         </Grid>
