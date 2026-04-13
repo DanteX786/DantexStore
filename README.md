@@ -40,7 +40,7 @@ DANTEXSTORE/
 │   │   └── main.jsx         # Renderizado de React
 │   └── vite.config.js       # Configuración de Vite
 └── README.md                # Documentación
-
+```
     Funcionalidades Principales
 Tienda Dinámica: Visualización de productos con imágenes y precios formateados.
 
@@ -56,15 +56,15 @@ Diseño Responsivo: Interfaz adaptada para diferentes tamaños de pantalla media
 
 | Vista Principal (Landing) | Tienda (Catálogo) |
 | :---: | :---: |
-| ![Landing Page](./Captura_proyecto_1.png) | ![Tienda](./Captura_proyecto_2.jpg) |
+| ![Landing Page](./Frontend/public/img/Captura_proyecto_1.png) | ![Tienda](./Frontend/public/img/Captura_proyecto_2.png) |
 
 | Ofertas de Locura | Mis Favoritos |
 | :---: | :---: |
-| ![Ofertas](./Captura_proyecto_3.png) | ![Favoritos](./Captura_proyecto_4.png) |
+| ![Ofertas](./Frontend/public/img/Captura_proyecto_3.png) | ![Favoritos](./Frontend/public/img/Captura_proyecto_4.png) |
 
 | Mi Carrito | Crear Cuenta (Registro) |
 | :---: | :---: |
-| ![Carrito](./Captura_proyecto_5.png) | ![Registro](./Captura_proyecto_6.png) |
+| ![Carrito](./Frontend/public/img/Captura_proyecto_5.png) | ![Registro](./Frontend/public/img/Captura_proyecto_6.png) |
 
 ---
 
