@@ -20,27 +20,27 @@ CORS - Para la comunicación segura entre dominios.
 
 Vercel - Configuración lista para despliegue.
 
-📂 Estructura del Proyecto
+### 📂 Estructura del Proyecto
 El proyecto sigue una estructura modular para facilitar el mantenimiento:
 
-Plaintext
+```plaintext
 DANTEXSTORE/
 ├── Backend/                 # Servidor API Node.js
-│   ├── NodeyReact           # Servidor Proyecto Node.js Albert    
-│   ├── index.js             # Punto de entrada del servidor
-│   ├── package.json         # Dependencias del servidor
+│   ├── index.js             # Punto de entrada
+│   ├── package.json         # Dependencias
 │   └── vercel.json          # Configuración de despliegue
 ├── Frontend/                # Aplicación Cliente React
 │   ├── src/
-│   │   ├── features/        # Lógica dividida por funcionalidades
-│   │   │   ├── api/         # Componentes de consumo de API
-│   │   │   ├── auth/        # Gestión de cuenta y favoritos
-│   │   │   ├── layout/      # Componentes globales (Header, Footer)
-│   │   │   └── views/       # Vistas principales (Tienda, Carrito)
+│   │   ├── features/        # Lógica por funcionalidades
+│   │   │   ├── api/         # Consumo de API
+│   │   │   └── auth/        # Gestión de cuenta
+│   │   ├── layout/          # Header, Footer
+│   │   ├── views/           # Tienda, Carrito
 │   │   ├── App.jsx          # Componente principal
 │   │   └── main.jsx         # Renderizado de React
 │   └── vite.config.js       # Configuración de Vite
-└── README.md
+└── README.md                # Documentación
+
 ✨ Funcionalidades Principales
 Tienda Dinámica: Visualización de productos con imágenes y precios formateados.
 
